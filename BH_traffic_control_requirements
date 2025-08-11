@@ -4,12 +4,16 @@ BornHack 20XX: design and implementation of traffic control measures on the road
     junction to parking area
     junction to main gate
 
+    Traffic lights at each end of these sections work as a pair, and a selectable 'tandem' mode could be beneficial
+        when high inflow or outflow is expected.
+        (example: junction->parking and junction->gate get green when road->junction gets green)
+
 
 Technical aspects:
 
     Requirements:
 
-    Battery powered (Makita 18V?)
+    Battery powered (Makita 18V?) -> 10S7P LiPo battery units have been offered by Dennis in signal:BH20XX_Traffic_Control
     Wireless (LoRaWan?)
     Visible in bright sunlight
     IP44 rated enclosures
@@ -20,15 +24,17 @@ Technical aspects:
     Autonomous detection of vehicles, fallback to "Press This Button". Minimal false triggers on non-car/truck vehicles (bikes, deer, snails etc.)
     Local status screen 
     Single pole-mountable unit
-    Multiple vehicle-detection methods 
+    Multiple vehicle-detection methods
+    Ambient light level sensor to reduce brightness at night
+    Loadable display patterns.
 
 
 Operational/logistical aspects:
 
-     Requirements:   
+    Requirements:   
 
     Freely placeable
-    Easily storable ( >2 in Eurocrate)
+    Easily storable (with the shade hood removed 3 can fit in a 60x40x40 Eurobox)
     Central monitoring (vehicles detected, battery state) and control (emergency/utility vehicle or BH shuttle in/out NOW)
 
     Nice to have:
@@ -40,8 +46,10 @@ Operational/logistical aspects:
 
 Legal and organisational aspects:
 
-    Should sufficiently look like a traffic light that people will act on the signal; should not 
-        be mistaken for an official one -> single-light units w. WS2812-based panels?.
-    Minimise obstruction of normal traffic by vehicles turning off from main road towards junction/venue
+    Should sufficiently look like a traffic light that people will act on the signal; should not be mistaken 
+        for an official one -> single-light units w. WS2812-based panels?. -> based on patterns as well as
+        colours to accomodate R/G colourblindness
+    Minimise obstruction of normal traffic by vehicles turning off from main road towards junction/venue ->
+        create waiting area at layby 200m before turnoff?
     Explanatory text on attached laminated paper
     Explanatory text in BH ticket?
