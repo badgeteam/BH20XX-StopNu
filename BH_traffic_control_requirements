@@ -4,7 +4,7 @@ BornHack 20XX: design and implementation of traffic control measures on the road
     junction to parking area
     junction to main gate
 
-    Traffic lights at each end of these sections work as a pair, and a selectable 'tandem' mode could be beneficial
+    Traffic lights at each end of these sections work as a pair, and a selectable 'ganged' mode could be beneficial
         when high inflow or outflow is expected.
         (example: junction->parking and junction->gate get green when road->junction gets green)
 
@@ -18,6 +18,8 @@ Technical aspects:
     Visible in bright sunlight
     IP44 rated enclosures
     Fallback to dumb mode (X minutes green #1, Y minutes red #1 and #2, X minutes green #2 ...) on central comms or sensor failure
+    Ambient light level sensor to reduce brightness at night # promoted to 'required'
+    Loadable display patterns. # promoted to 'required'
 
     Nice to have:
 
@@ -25,8 +27,6 @@ Technical aspects:
     Local status screen 
     Single pole-mountable unit
     Multiple vehicle-detection methods
-    Ambient light level sensor to reduce brightness at night
-    Loadable display patterns.
 
 
 Operational/logistical aspects:
@@ -47,7 +47,7 @@ Operational/logistical aspects:
 Legal and organisational aspects:
 
     Should sufficiently look like a traffic light that people will act on the signal; should not be mistaken 
-        for an official one -> single-light units w. WS2812-based panels?. -> based on patterns as well as
+        for an official one -> single-light units w. WS2812-based panels?. -> wait/go display based on patterns as well as
         colours to accomodate R/G colourblindness
     Minimise obstruction of normal traffic by vehicles turning off from main road towards junction/venue ->
         create waiting area at layby 200m before turnoff?
