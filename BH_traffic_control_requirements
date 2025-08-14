@@ -18,8 +18,8 @@ Technical aspects:
     Visible in bright sunlight
     IP44 rated enclosures
     Fallback to dumb mode (X minutes green #1, Y minutes red #1 and #2, X minutes green #2 ...) on central comms or sensor failure
-    Ambient light level sensor to reduce brightness at night # promoted to 'required'
-    Loadable display patterns. # promoted to 'required'
+    Ambient light level sensor to reduce brightness at night # was 'nice to have', promoted to 'required'
+    Loadable display patterns. # was 'nice to have', promoted to 'required'
 
     Nice to have:
 
