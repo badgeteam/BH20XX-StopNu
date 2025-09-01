@@ -12,11 +12,10 @@ https://github.com/badgeteam/stopnu-hardware
 
 # Directory structure
 
- * ./mechanical: All the mechanical files
  * ./documentation: documentation we write and use for designing the StopNu.
- * ./photos: Photos used to illustrate the design.
  * ./electronics: Wiring and used off the shelf electronic components. 
- * ./mechanical: Mechanical deisng files and drawings. 
+ * ./mechanical: Mechanical design files and drawings. 
+ * ./photos: Photos used to illustrate the design.
  * ./pcb_light: The design of the LED panel (schematic and PCB, CadSoft Eagle and PDF)
 # License 
 
