@@ -10,7 +10,7 @@ https://github.com/badgeteam/stopnu-firmware
 The design of the main control board can be found here:
 https://github.com/badgeteam/stopnu-hardware
 
-# Directory tructure
+# Directory structure
 
  * ./mechanical: All the mechanical files
  * ./documentation: documentation we write and use for designing the StopNu.
