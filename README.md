@@ -17,8 +17,7 @@ https://github.com/badgeteam/stopnu-hardware
  * ./photos: Photos used to illustrate the design.
  * ./electronics: Wiring and used off the shelf electronic components. 
  * ./mechanical: Mechanical deisng files and drawings. 
- * ./pcb_light: The design of the PCB 
-
+ * ./pcb_light: The design of the LED panel (schematic and PCB, CadSoft Eagle and PDF)
 # License 
 
 The hardware design is licenced under the "CERN Open Hardware Licence Version 2 - Permissive".
