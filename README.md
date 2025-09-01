@@ -21,5 +21,4 @@ https://github.com/badgeteam/stopnu-hardware
 
 # License 
 
-The hardware design is licenced under the "CERN Open Hardware Licence Version 2
-- Permissive".
+The hardware design is licenced under the "CERN Open Hardware Licence Version 2 - Permissive".
