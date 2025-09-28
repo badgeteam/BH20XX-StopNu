@@ -17,48 +17,75 @@ will need to house new electronics and LED lighting circuits. They will also
 need to communicate over a distance of around 300 m. through forrested area. 
 Due to the large distance, the units shall be battery powered. 
 
+# Writing process used 
+The requirements are discussed in this project view.
+https://github.com/orgs/badgeteam/projects/12/views/1
+
+This document aggregates all the design decissions into a coherent whole. 
+For local checking the program `ghostwriter` can interpret this Markdown 
+document.
+
 # Project deployment
 
-![Map of StopNu deployment at Bornhack](./pics/StopNu_initial_deployment_orig.png)
+BornHack 20XX: design and implementation of traffic control measures on the
+roads outside the venue. This concerns:
+
+ *  Hylkedamvej main road to junction
+ *  junction to parking area
+ *  junction to main gate
+
+![Map of StopNu deployment at Bornhack](./pics/StopNu_initial_deployment.png)
+
+Traffic lights at each end of these sections work as a pair, and a selectable
+'ganged' mode could be beneficial when high inflow or outflow is expected.
+(example: junction->parking and junction->gate get green when road->junction
+gets green)
 
 # Operation / logistics aspects
 
-# External units
 
-## Battery and enclosure
 
-## Battery chargers
 
-## Mounting pole
-
-# Internal Units
+# Used Units
 
 ## Traffic lights
 
-### Traffice light Enclosure 
+## Traffice light Enclosure 
 
-### LED board
+## LED board
 
-### Control Board
+## Control Board
 
-### Ambient light sensor
+## Ambient light sensor
 
-### Wire harnesses internal
+Open Issue:   
+Visible in bright sunlight #7  
+https://github.com/badgeteam/stopnu-hardware/issues/7
 
-### Wire harnesses external
+### Wire harnesses internal to traffic light
+
+### Wire harnesses external to and from battery
+
+## Mounting pole
+
+## Battery and enclosure
+
+Open Issue: 
+
+https://github.com/badgeteam/stopnu-hardware/issues/1
+
+## Battery chargers
+
+Open Issue: When a battery pack is chosen, one or more chargers need to be
+available. 
 
 ## Control box
 
+# Behaviour and Software
 
-BornHack 20XX: design and implementation of traffic control measures on the roads outside the venue. This concerns:
 
-    Hylkedamvej main road to junction
-    junction to parking area
-    junction to main gate
+Loadable display patterns: https://github.com/badgeteam/stopnu-firmware/issues/3
 
-    Traffic lights at each end of these sections work as a pair, and a selectable 'ganged' mode could be beneficial
-        when high inflow or outflow is expected.
-        (example: junction->parking and junction->gate get green when road->junction gets green)
 
 
 Technical aspects:
