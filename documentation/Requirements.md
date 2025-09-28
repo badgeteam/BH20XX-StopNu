@@ -19,7 +19,7 @@ Due to the large distance, the units shall be battery powered.
 
 # Project deployment
 
-![Map of StopNu deployment at Bornhack]("./pics/StopNu_initial_deployment_orig.png")
+![Map of StopNu deployment at Bornhack](./pics/StopNu_initial_deployment_orig.png)
 
 # Operation / logistics aspects
 
