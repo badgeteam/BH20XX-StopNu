@@ -1,0 +1,10 @@
+Note: this sketch is totally not to scale.
+
+Initially, proto area is connected to LoRa area via PCB traces; FFC connector is fitted, ready for future use. Of course there can be another proto area within the LoRa area.
+Once Car-Detect-o-Matic comes into play, there are two options:
+1 - Proto area removed using cut 1. LoRa board is mounted using bolts LL and LR, support plate is added to provide mounting points aux L and aux R (M3 or M4)
+2 - Proto area removed using cut 2. LoRa board is mounted using bracket holes LL and LR against LoRa bolt holes UL and UR. Lora board basically shifts down 3cm. Support plate provides mounting points aux L and aux R.
+Choice of option 1 or 2 is selected during design of LoRa board.
+
+C-D-o-M is mounted using holes UL and UR plus two mounting points on the support plate and connected via FFC.
+FFC connector position is chosen depending on option 1 or 2
