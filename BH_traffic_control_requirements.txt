@@ -20,6 +20,7 @@ Technical aspects:
     Fallback to dumb mode (X minutes green #1, Y minutes red #1 and #2, X minutes green #2 ...) on central comms or sensor failure
     Ambient light level sensor to reduce brightness at night # was 'nice to have', promoted to 'required'
     Loadable display patterns. # was 'nice to have', promoted to 'required'
+    NEW: tilt sensor, to detect unit having fallen over or being (re)moved.
 
     Nice to have:
 
