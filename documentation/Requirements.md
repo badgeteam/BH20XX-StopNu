@@ -3,7 +3,7 @@
 # Introduction
 
 This document describes the requirements for the StopNu project for the
-Bornhack hacker festival. This projec consists of 6 traffic light shaped units
+Bornhack hacker festival. This project consists of 6 traffic light shaped units
 to steer traffic accros narrow muddy roads towards the festival terrain and
 parking lot from the main road.
 
@@ -12,9 +12,10 @@ vehicles towards the terrain at Hylkedamvej. It basically only allows for one
 way traffic and we want to automate the flow of traffic. This yearly festival
 occurs in July and has around 400 visitors. 
 
-The organization of Bornhack has aqcuired 6 traffic light enclosures. These
-will need to house new electronics and LED lighting circuits. They will also
-need to communicate over a distance of around 300 m. through forrested area. 
+The organization of Bornhack has aqcuired 2 traffic lights, which have been 
+separated into 6 single light enclosures. These will house new electronics and 
+LED lighting circuits. They will also need to communicate over a distance of 
+around 300 m. through forested and slightly hilly terrain. 
 Due to the large distance, the units shall be battery powered. 
 
 # Writing process used 
@@ -99,13 +100,15 @@ Technical aspects:
     Fallback to dumb mode (X minutes green #1, Y minutes red #1 and #2, X minutes green #2 ...) on central comms or sensor failure
     Ambient light level sensor to reduce brightness at night # was 'nice to have', promoted to 'required'
     Loadable display patterns. # was 'nice to have', promoted to 'required'
+    Tilt sensor, to report the unit has fallen over or is being (re)moved.
+    Single, pole-mountable unit (excluding batteries)
 
     Nice to have:
 
     Autonomous detection of vehicles, fallback to "Press This Button". Minimal false triggers on non-car/truck vehicles (bikes, deer, snails etc.)
-    Local status screen 
-    Single pole-mountable unit
     Multiple vehicle-detection methods
+    Local status screen 
+   
 
 
 Operational/logistical aspects:
